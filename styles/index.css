@@ -183,6 +183,7 @@ a {
     background-color: rgb(79, 56, 247);
     margin-top: 15px;
     width: 50%;
+    height: 372px;
 }
 
 .tagline {
@@ -222,11 +223,12 @@ a {
 }
 
 .card1-bottom {
+    margin: 0;
     margin-top: 20px;
     display: flex;
     align-items: center;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .card1-mid-left {
@@ -335,19 +337,19 @@ a {
     z-index: 2;
 }
 
-/* FLUX SECTION */
+/* BLYNK SECTION */
 
-.flux-container {
+.blynk-container {
     display: flex;
     flex-direction: column;
     color: #000;
 }
 
-.flux-header-tagline {
+.blynk-header-tagline {
     font-size: 40px;
 }
 
-.flux-header-content {
+.blynk-header-content {
     font-size: 24px;
     margin-top: 10px;
     width: 786px;
@@ -407,4 +409,36 @@ a {
 .card4 img{
     height: 40px;
     width: 40px;
+}
+
+
+.card5{
+    height: 500px;
+    width: 400px;
+    border-radius: 24px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+
+.card5 img{
+    width: 400px;
+    height: 50%;
+    object-position: center;    
+    object-fit: cover;
+}
+
+.card5-content{
+    padding: 20px;
+}
+
+.card5-content h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+.card5-content p{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 200;
+    margin-top: 10px;
 }

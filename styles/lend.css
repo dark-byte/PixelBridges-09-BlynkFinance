@@ -298,3 +298,8 @@ width: 30%;
 .table tr{
     cursor: pointer;
 }
+
+
+.market-table tr>td:last-child{
+    width: auto;
+}
